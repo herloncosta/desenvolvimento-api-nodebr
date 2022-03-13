@@ -48,9 +48,10 @@ obterUsuario(function resolverUsuario(error, usuario) {
             }
 
             console.log(`
-            Nome: ${usuario.nome}
-            Endereço: ${endereco.rua}, ${endereco.numero}
-            Telefone: (${telefone.ddd})${telefone.telefone}`)
+                Nome: ${usuario.nome}
+                Endereço: ${endereco.rua}, ${endereco.numero}
+                Telefone: (${telefone.ddd})${telefone.telefone}
+            `)
         })
     })
 })
